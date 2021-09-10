@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+.post-list{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+.menu{
+    display:grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    justify-content: end;
+    padding: 40px;
+    background-color: aqua;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: minmax(100px,auto);
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin:auto;
+    gap: 2em;
+    align-items: start;
+    padding: 40px;
+}
+
+.post{
+    box-shadow: 0 1px 6px 1px rgba(0,0,0,.1);
+    transition: .2s;
+}
+.post:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 1px 6px 1px rgba(0,0,0,.15);
+}
+
+.post-header{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.post:hover .Item1-img{
+    transform: scale(1.1);
+}
+.post:hover .Item2-img{
+    transform: scale(1.1);
+}
+.post:hover .Item3-img{
+    transform: scale(1.1);
+}
+
+.post-body{
+    padding: 20px;
+    text-align: center;
+}
+
+.post-body span{
+    display: inline-block;
+    color: coral;
+    margin-bottom: 10px;
+}
+
+.post-body h2{
+    margin-bottom: 15px;
+}
+
+.post-body p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+#Edwing{
+    grid-column-gap: 40px;
+    gap:5em;
+}

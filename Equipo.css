@@ -87,18 +87,18 @@ body{
     background-position: center;
 }
 #Camilo-img{
-    background: url("Imagenes/Logo-MisionTIC-2022.jpg");
+    background: url("Imagenes/Camilo.jpeg");
     width: 100%;
     height: 250px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 #Angela-img{
-    background: url("Imagenes/fondo1.jpg");
+    background: url("Imagenes/Angela.jpeg");
     width: 100%;
     height: 250px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 #Edwing-img{
     background: url("Imagenes/Logo-MisionTIC-2022.jpg");

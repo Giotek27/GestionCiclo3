@@ -1,0 +1,84 @@
+body {
+    background-image: url(/Imagenes/Triturado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Cajalogin {
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+    color: white;
+}
+
+.Recuperar{
+    padding: 20px;
+    border-radius: 10px;
+    color:rgb(47, 177, 159);
+}
+
+.form-control {
+    background: rgb(235, 232, 232);
+    border-style: solid;
+    transition: 0.3s ease-in;
+    outline: none;
+    box-shadow: rgb(0, 0, 0);
+}
+
+.form-control:focus {
+    background: none;
+    box-shadow: none;
+    outline: transparent;
+}
+
+.form-control::placeholder {
+    color: rgb(47, 177, 159);
+}
+
+.ingresar {
+    background: #222A3F;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700!important;
+    color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+    transition: 0.5s ease-in;
+}
+
+.ingresar:hover {
+    color: white;
+}
+
+.Contrasegna {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+
+.Contrasegna:hover {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.Registrarse {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: 700!important;
+    border: 2px solid white; 
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .5);
+}
+
+.Registrarse:hover {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}

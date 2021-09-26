@@ -80,35 +80,35 @@ body{
     margin-bottom: 20px;
 }
 #Sergio-img{
-    background: url("Imagenes/Sergio.jpg");
+    background: url("/Imagenes/Sergio.jpg");
     width: 100%;
     height: 250px;
     background-size: cover;
     background-position: center;
 }
 #Camilo-img{
-    background: url("Imagenes/Camilo.jpeg");
+    background: url("/Imagenes/Camilo.jpeg");
     width: 100%;
     height: 250px;
     background-size: cover;
     background-position: top;
 }
 #Angela-img{
-    background: url("Imagenes/Angela.jpeg");
+    background: url("/Imagenes/Angela.jpeg");
     width: 100%;
     height: 250px;
     background-size: cover;
     background-position: top;
 }
 #Edwing-img{
-    background: url("Imagenes/Logo-MisionTIC-2022.jpg");
+    background: url("/Imagenes/Logo-MisionTIC-2022.jpg");
     width: 100%;
     height: 250px;
     background-size: cover;
     background-position: center;
 }
 #Magda-img{
-    background: url("Imagenes/Magda.jpeg");
+    background: url("/Imagenes/Magda.jpeg");
     width: 100%;
     height: 250px;
     background-size: cover;

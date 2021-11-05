@@ -12,7 +12,7 @@
 			<ul>
 				<li><router-link to="/">Home</router-link></li>
                 <li><router-link to="/divisionvendedor">Vende Tu Plastico</router-link> </li>
-                <li><a href="https://intense-stream-51686.herokuapp.com/">Login empleados</a> </li>
+                <li><a href="https://login-empleados.herokuapp.com/">Login empleados</a> </li>
             </ul>
 		</nav>
         
